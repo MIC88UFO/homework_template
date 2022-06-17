@@ -1,4 +1,4 @@
-public class Main {
+public class KnapsackGreedy {
     public static void main(String[] args) {
         long startTime = System.currentTimeMillis();
         int n,C,k;
