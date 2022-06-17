@@ -200,6 +200,16 @@ gitpod /workspace/homework_template (main) $ gcc QuickSort.c -o quicksort
 gitpod /workspace/homework_template (main) $ ./quicksort 
 10
 9       7       4       2       1       1
+11
+gitpod /workspace/homework_template (main) $ gcc MergeSort.c -o mergesort
+gitpod /workspace/homework_template (main) $ ./mergesort
+10
+1       2       1       4       1       2       1       4       9
+23
+gitpod /workspace/homework_template (main) $ gcc BubbleSort.c -o bubblesort
+gitpod /workspace/homework_template (main) $ ./bubblesort 
+10
+42
 ```
 
 + （2）、使用随机数生成方法生成包含100个随机数的测试数据，记录这些数据，并分别记录以上三个排序算法比较操作的执行次数；再重新生成包含100个随机数的测试数据，记录这些数据三个排序算法比较操作的执行次数。
