@@ -196,9 +196,10 @@ DivideAndConquer(data,n,solution)
 实验过程及实验结果（C版）
 
 ```bash
-gitpod /workspace/homewrok_template (main) $ gcc -o max.exe max.c
-gitpod /workspace/homewrok_template (main) $ ./max.exe 
-14
+gitpod /workspace/homework_template (main) $ gcc QuickSort.c -o quicksort
+gitpod /workspace/homework_template (main) $ ./quicksort 
+10
+9       7       4       2       1       1
 ```
 
 + （2）、使用随机数生成方法生成包含100个随机数的测试数据，记录这些数据，并分别记录以上三个排序算法比较操作的执行次数；再重新生成包含100个随机数的测试数据，记录这些数据三个排序算法比较操作的执行次数。
