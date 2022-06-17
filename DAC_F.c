@@ -2,10 +2,9 @@
 #include <stdlib.h>
 int Fibonacci(int n,int* times);
 
-
 int main()
 {
-     int n = 30;
+     int n = 20;
      int *times = (int*)malloc(sizeof(int));
      times[0] = 0;
      Fibonacci(n,times);
