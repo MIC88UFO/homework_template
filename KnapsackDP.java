@@ -1,5 +1,4 @@
-public class Main {
-
+public class KnapsackDP {
     public static void main(String[] args) {
 	// write your code here
         long startTime = System.currentTimeMillis();
